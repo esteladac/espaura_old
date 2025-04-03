@@ -39,7 +39,7 @@ ESPAura is a modular and efficient firmware designed for an ESP-based Ambilight 
 
 ## Changelog
 
-### v1.0.0 - Initial Release
+### v0.2.0 - Initial Release
 
 - Core functionalities implemented.
 - Adalight, EEPROM, and Serial Control.
