@@ -1,4 +1,4 @@
-# ESPAura Firmware Release v1.0.0
+# ESPAura Firmware Release v0.2.0
 
 ## Introduction
 
