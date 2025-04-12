@@ -23,12 +23,12 @@
  * - EEPROM storage for configuration persistence
  * - Serial communication for configuration and debugging
  * - Built-in LED for status indication
+ * - Improved error handling and logging
  * - Modular design for easy expansion and customization
  * 
  * Future improvements:
  * - WiFi support for remote configuration and control
  * - Additional effects and animations for LEDs
- * - Improved error handling and logging
  * - User-friendly configuration interface
  * - Support for multiple LED types and configurations
  * - Integration with home automation systems
@@ -54,7 +54,7 @@
 
 // Firmware infos
 
-#define ESPAURA_VERSION "1.0.0" // Version of the firmware
+#define ESPAURA_VERSION "0.3.0" // Version of the firmware
 
 // Firmware settings
 
@@ -481,6 +481,7 @@ struct modesHandling {
 };
 modesHandling modes; // Serial handling object
 
+#ifndef DISABLE_IR
 struct irFunctions {
     void init() {
         irrecv.enableIRIn();
@@ -546,7 +547,7 @@ struct irFunctions {
     }
 };
 irFunctions ir;
-
+#endif
 
 // --------- //
 // Main code //
@@ -567,14 +568,14 @@ void setup() {
     eeprom.init(); // Initialize EEPROM 
     led.init(); // Initialize LEDs
     logg.debug("LEDs: Initialized !");
-    #ifndef IR_DISABLED
+    #ifndef DISABLE_IR
     ir.init();
     #endif
 }
 
 void loop() {
     modes.loop(); // Handle serial modes
-    #ifndef IR_DISABLED
+    #ifndef DISABLE_IR
     ir.loop();
     #endif
 }
