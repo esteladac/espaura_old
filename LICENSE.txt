@@ -6,6 +6,6 @@ This software and its associated hardware (the "Project") are proprietary and co
 
 No part of this code may be used for commercial purposes, shared, or redistributed without authorization. The Project is not open-source and is licensed solely for personal use in the context of purchasing the associated hardware.
 
-For inquiries, licensing requests, or more information, please contact: [ton email ou site]
+For inquiries, licensing requests, or more information, please contact: admin@shvps.xyz
 
 This license supersedes any prior or other licenses, including Creative Commons licenses, that may have been associated with this Project.
