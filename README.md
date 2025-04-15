@@ -17,7 +17,7 @@ Allows manual configuration through **serial commands** with future **WiFi suppo
 - [FastLED](https://github.com/FastLED/FastLED) library for controlling LED strips  
 - [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266) library for IR remote control  
 - Modified version by myself of [Adalight for WS2812](https://github.com/Wifsimster/adalight_ws2812) by Wifsimster (Thank you for your permission to use your project)
-- **WLED** code as inspiration/reference (not copied)  
+- [Wled](https://github.com/wled/WLED) code as inspiration/reference (not copied)  
 - **ChatGPT** for idea suggestions and effect code inspiration (all code is handwritten)  
 - **GitHub Copilot** for generating comments only (not used for actual code generation)  
 
