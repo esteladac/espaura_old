@@ -6,6 +6,10 @@ Allows manual configuration through **serial commands** with future **WiFi suppo
 
 ---
 
+# This repository is not a general purpose firmware, it's only for my hardware and may not work with your configuration, pins and settings are not dynamic
+
+---
+
 ## 👨‍💻 Developed by
 
 **Esteladac** | *ESPAura Project*
