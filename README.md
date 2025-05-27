@@ -55,7 +55,7 @@ Allows manual configuration through **serial commands** with future **WiFi suppo
 
 ## 📄 License
 
-**ESPAura © 2025 by Esteladac**  
+GPL  
 
 ---
 
