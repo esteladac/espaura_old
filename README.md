@@ -53,7 +53,7 @@ Allows manual configuration through **serial commands** with future **WiFi suppo
 - 🏠 Integration with home automation systems  
 - 🎨 Customizable presets for different lighting scenarios  
 - 🔗 Support for different communication protocols (e.g., MQTT, HTTP API)  
-- ⚡ Enhanced performance and efficiency  
+- ⚡ Enhanced performance and efficiency (nah is already the most optimised)
 
 ---
 
